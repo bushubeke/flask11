@@ -1,1 +1,1 @@
-# fast-scaleable-struct
+# Simple Scalable Flask API strucure with openAPI
