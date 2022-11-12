@@ -16,7 +16,7 @@ app=create_dev_app()
 
 @capp.command()
 def rung():
-    """starts gunicorn server of the app with uvicorn works bound  to 0.0.0.0:9000 with one worker
+    """starts gunicorn server of the app with uvicorn works bound  to 0.0.0.0:8000 with one worker
     """
     subprocess.run(["gunicorn", "manage:app","-b" ,"0.0.0.0:8000","--reload","-w","1"]) 
 
