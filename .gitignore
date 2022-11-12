@@ -1,0 +1,6 @@
+__pycache__
+.env
+main/__pycache__
+user/__pycache__
+store/__pycache__
+tests/__pycache__
